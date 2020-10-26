@@ -1,0 +1,33 @@
+* {
+	font-family: 'europa-regular';
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 2em 0;
+	padding: 1em 2em;
+	background-color: #fff;
+	border-radius: 1em;
+}
+
+nav .right a {
+	text-decoration: none;
+	color: #24D7FF;
+	padding: 0.5em 1em;
+	transition: 0.3s;
+}
+
+nav .right a:hover {
+	background-color: rgba(102, 152, 238, 0.116);
+	border-radius: 0.3em;
+}
+
+body {
+	background-color: #eaeaea;
+}
+
+img {
+	width: 100%;
+}
