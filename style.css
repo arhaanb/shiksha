@@ -1,5 +1,24 @@
-* {
+*, button, input {
 	font-family: 'europa-regular';
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.zero {
+	margin: 0;
+}
+
+.med {
+	font-family: 'europa';
+}
+
+.center {
+	text-align: center;
 }
 
 nav {
@@ -30,4 +49,59 @@ body {
 
 img {
 	width: 100%;
+}
+
+h1.big {
+	font-size: 7em;
+}
+
+h1.big span {
+	font-family: 'europa';
+}
+
+section#landing {
+	margin: 8em 0 10em 0;
+}
+
+.mainill {
+	background-image: url('https://cdni.iconscout.com/illustration/premium/thumb/easy-online-learning-1946855-1648374.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 10em;
+}
+
+.orange {
+	color: rgb(255, 136, 0);
+}
+
+button {
+	background: orange;
+	border: none;
+	color: #fff;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 3em;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+@media (max-width: 750px) {
+	.grid {
+		display: grid;
+		grid-gap: 3em;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+#info2 {
+	z-index: 2;
+	margin-top: -7em;
+	margin-bottom: 10em;
+}
+
+#info2 .card {
+	padding: 1em;
+	background-color: #fff;
+	border-radius: 0.5em;
 }
