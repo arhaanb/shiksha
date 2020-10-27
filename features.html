@@ -16,7 +16,10 @@
 		<div class="fixed">
 			<nav>
 				<div class="left">
-					<a href="./index.html">Shiksha.</a>
+					<a href="./index.html">
+						<!-- Shiksha. -->
+						<img src="./logo.svg" alt="" class="logo">
+					</a>
 				</div>
 				<div class="right">
 					<a href="./features.html">Features</a>
@@ -35,8 +38,8 @@
 			<div class="flex-center">
 				<div class="seven columns">
 					<h5 class="center">
-						Shiksha is a teacher oriented platform. Check out some of its critical features that set it aside from the
-						competition.
+						<i>Shiksha</i> is a teacher oriented platform. Check out some of its critical features that set it aside
+						from the competition.
 					</h5>
 				</div>
 				<h6 class="center subup">Features That Fit</h6>
@@ -52,17 +55,26 @@
 		<div class="container">
 			<div class="grid">
 				<div class="card">
+					<p class="center zero">
+						<img src="./record.svg" alt="">
+					</p>
 					<h4 class="med">Transcripts</h4>
 					<p><i>Shiksha</i> generates transcripts of the lectures with 98.7% accuracy.</p>
 				</div>
 
 				<div class="card">
+					<p class="center zero">
+						<img src="./notes.svg" alt="">
+					</p>
 					<h4 class="med">Class Notebooks</h4>
 					<p><i>Shiksha</i> automatically prepares class notebooks for students to download and use. Notes are made
 						using the transcripts generated, andscreenshots of the whiteboard are added for reference.</p>
 				</div>
 
 				<div class="card">
+					<p class="center zero">
+						<img src="./board.svg" alt="">
+					</p>
 					<h4 class="med">Whiteboard</h4>
 					<p>The most advanced whiteboard in an online classroom yet.</p>
 				</div>
@@ -74,20 +86,91 @@
 		<div class="container">
 			<div class="grid2">
 				<div class="boxcard">
-					<h4>Attendance</h4>
+					<h4>Track no-shows</h4>
+					<p>Automatically mark attendance for students who join your meeting and notify you when children leave in
+						between.</p>
 				</div>
 
 				<div class="boxcard">
-					<h4>Attendance</h4>
+					<h4>Secure</h4>
+					<p>No meeting bombers :)</p>
 				</div>
 
 				<div class="boxcard">
-					<h4>Attendance</h4>
+					<h4>Tests and Quizzes</h4>
+					<p>An easy way to learn and host quizzes.</p>
 				</div>
 
 				<div class="boxcard">
-					<h4>Attendance</h4>
+					<h4>Dashboard</h4>
+					<p>A complete dashboard to keep track of students' progress.</p>
 				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="reviews">
+		<div class="container">
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+					<div class="text">
+						<div class="flex-center">
+							<div class="seven columns">
+								<p class="zero">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolore eius cum aliquam
+									corrupti amet autem dolorum. Dignissimos, aspernatur ad temporibus nisi velit praesentium quisquam
+									incidunt explicabo porro eos consectetur.
+								</p>
+								<h5 class="zero">Siddhayak Goyal</h5>
+							</div>
+							<div class="u-cf"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text">
+						<div class="flex-center">
+							<div class="seven columns">
+								<p class="zero">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolore eius cum aliquam
+									corrupti amet autem dolorum. Dignissimos, aspernatur ad temporibus nisi velit praesentium quisquam
+									incidunt explicabo porro eos consectetur.
+								</p>
+								<h5 class="zero">Achal Gupta</h5>
+							</div>
+							<div class="u-cf"></div>
+						</div>
+					</div>
+				</div>
+
+				<div class="mySlides fade">
+					<div class="text">
+						<div class="flex-center">
+							<div class="seven columns">
+								<p class="zero">
+									Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem dolore eius cum aliquam
+									corrupti amet autem dolorum. Dignissimos, aspernatur ad temporibus nisi velit praesentium quisquam
+									incidunt explicabo porro eos consectetur.
+								</p>
+								<h5 class="zero">Aditya Pramar</h5>
+							</div>
+							<div class="u-cf"></div>
+						</div>
+					</div>
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+			</div>
+			<br>
+
+			<div style="text-align:center">
+				<span class="dot" onclick="currentSlide(1)"></span>
+				<span class="dot" onclick="currentSlide(2)"></span>
+				<span class="dot" onclick="currentSlide(3)"></span>
 			</div>
 		</div>
 	</section>
@@ -103,6 +186,33 @@
 
 	<script type="text/javascript">
 		var rellax = new Rellax('.rellax');
+
+		var slideIndex = 1;
+		showSlides(slideIndex);
+
+		function plusSlides(n) {
+			showSlides(slideIndex += n);
+		}
+
+		function currentSlide(n) {
+			showSlides(slideIndex = n);
+		}
+
+		function showSlides(n) {
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			var dots = document.getElementsByClassName("dot");
+			if (n > slides.length) { slideIndex = 1 }
+			if (n < 1) { slideIndex = slides.length }
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+			for (i = 0; i < dots.length; i++) {
+				dots[i].className = dots[i].className.replace(" active", "");
+			}
+			slides[slideIndex - 1].style.display = "block";
+			dots[slideIndex - 1].className += " active";
+		}
 	</script>
 </body>
 
