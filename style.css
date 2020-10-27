@@ -278,7 +278,7 @@ footer h6 {
 footer {
 	padding: 0.5em 0;
 	border-top: solid rgba(34, 34, 34, 0.356) 1px;
-	background-color: rgba(255, 255, 255, 0.63);
+	background-color: rgba(255, 255, 255, 0.2);
 }
 
 .kiss {
@@ -432,4 +432,22 @@ img {
 #application {
 	margin-top: -15em;
 	margin-bottom: 5em;
+}
+
+#courses {
+	background-color: #fff;
+	padding-bottom: 5em;
+}
+
+form {
+	margin-top: 2em;
+}
+
+form input {
+	margin-bottom: 1em;
+}
+
+a {
+	text-decoration: none;
+	color: #6699ee;
 }
