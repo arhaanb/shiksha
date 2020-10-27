@@ -127,7 +127,7 @@ button {
 }
 
 #info2 .card {
-	padding: 1em;
+	padding: 1.5em;
 	background-color: #fff;
 	border-radius: 0.5em;
 }
@@ -135,6 +135,19 @@ button {
 .card p img {
 	width: 4em;
 	margin: 3em 0;
+}
+
+.boxcard {
+	display: flex;
+	justify-content: flex-start;
+	background-color: #fff;
+	padding: 2em;
+	align-items: center;
+}
+
+.boxcard img {
+	margin-right: 2em;
+	width: 4em;
 }
 
 .boxcard h4 {
@@ -156,6 +169,11 @@ button {
 
 .card h4 {
 	margin-bottom: 0.2em;
+	text-align: center;
+}
+
+.card p {
+	margin: 0;
 }
 
 .grid {
@@ -176,11 +194,6 @@ button {
 		grid-gap: 3em;
 		grid-template-columns: repeat(1, 1fr);
 	}
-}
-
-.boxcard {
-	background-color: #fff;
-	padding: 1em;
 }
 
 #mission {
