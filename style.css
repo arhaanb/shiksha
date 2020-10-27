@@ -407,3 +407,11 @@ img {
 #reviews {
 	margin: 3em 0;
 }
+
+.brand img {
+	margin-bottom: 3em;
+}
+
+#info2.brand {
+	margin-bottom: 1em;
+}
