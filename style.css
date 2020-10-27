@@ -1,5 +1,16 @@
 *, button, input {
 	font-family: 'europa-regular';
+	margin: 0;
+	padding: 0;
+}
+
+.noselect, br, img, select, input, button {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
 }
 
 .flex-center {
@@ -7,6 +18,10 @@
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
+}
+
+button {
+	padding: 0 2em;
 }
 
 .zero {
@@ -80,20 +95,6 @@ button {
 	color: #fff;
 }
 
-.grid {
-	display: grid;
-	grid-gap: 3em;
-	grid-template-columns: repeat(3, 1fr);
-}
-
-@media (max-width: 750px) {
-	.grid {
-		display: grid;
-		grid-gap: 3em;
-		grid-template-columns: repeat(1, 1fr);
-	}
-}
-
 #info2 {
 	z-index: 2;
 	margin-top: -7em;
@@ -104,4 +105,126 @@ button {
 	padding: 1em;
 	background-color: #fff;
 	border-radius: 0.5em;
+}
+
+.subup {
+	margin: 0;
+	color: #69e;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	font-size: 1.2em;
+}
+
+.card h4 {
+	margin-bottom: 0.2em;
+}
+
+.grid {
+	display: grid;
+	grid-gap: 3em;
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.grid2 {
+	display: grid;
+	grid-gap: 3em;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+@media (max-width: 750px) {
+	.grid {
+		display: grid;
+		grid-gap: 3em;
+		grid-template-columns: repeat(1, 1fr);
+	}
+}
+
+.boxcard {
+	background-color: #fff;
+	padding: 1em;
+}
+
+#mission {
+	background-color: rgba(185, 185, 185, 0.2);
+	padding: 2em 0;
+}
+
+.flex {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#mission .flex .one {
+	margin: 3em 0;
+	margin-right: 13em;
+}
+
+#mission .line {
+	height: 2px;
+	width: 55px;
+	background-color: #69e;
+	margin-bottom: 1em;
+}
+
+#founder {
+	margin: 4em 0;
+}
+
+#founder img {
+	width: 20em;
+	margin-right: 8em;
+	border-radius: 0.5em;
+	-webkit-box-shadow: 9px 10px 38px -3px rgba(0, 0, 0, 0.63);
+	box-shadow: 9px 10px 38px -3px rgba(0, 0, 0, 0.63);
+}
+
+#morefeat {
+	margin-top: -2em;
+	margin-bottom: 5em;
+}
+
+#morefeat .boxcard {
+	border-radius: 0.5em;
+}
+
+.grad {
+	background: #7F7FD5;
+	/* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	/* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+	/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.circle1, .circle2 {
+	position: absolute;
+}
+
+.circle1 {
+	width: 3em;
+	top: 20em;
+	left: 3em;
+}
+
+.circle2 {
+	width: 5em;
+	right: 10em;
+	bottom: 40em;
+}
+
+footer h6 {
+	margin: 0;
+}
+
+footer {
+	padding: 0.5em 0;
+	border-top: solid rgba(34, 34, 34, 0.356) 1px;
+	background-color: rgba(255, 255, 255, 0.63);
+}
+
+.kiss {
+	width: 10em;
 }
