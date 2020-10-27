@@ -1,3 +1,19 @@
+@font-face {
+	font-family: "europa";
+	src: url("./fonts/bold.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "europa-regular";
+	src: url("./fonts/regular.ttf");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
 *, button, input {
 	font-family: 'europa-regular';
 	margin: 0;
@@ -18,8 +34,8 @@
 }
 
 ::selection {
-  color: rgb(27, 67, 136);
-  background: rgba(102, 152, 238, 0.342);
+	color: rgb(27, 67, 136);
+	background: rgba(102, 152, 238, 0.342);
 }
 
 .flex-center {
