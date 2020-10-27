@@ -22,6 +22,8 @@ Education is something everyone deserves, so I believe that this pandemic should
 anyone from learning. So my main motive was to use minimal libraries and make it a simple
 and clear website for everyone to access. 
 
+Also note: Illustrations, Icons, and other svg assets have been deisgned and customized by me.
+
 Thank you, I hope you like it :)
 
 Hosted Website: https://arhaanb.co/shiksha
