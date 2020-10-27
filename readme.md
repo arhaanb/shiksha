@@ -1,6 +1,4 @@
-<p align="center">
-	<img src="./readme/shiksha.svg" width="50%" />
-</p>
+[<p align="center"><img src="./readme/shiksha.svg" width="50%" /></p>](https://arhaanb.co/shiksha)
 
 <br>
 
