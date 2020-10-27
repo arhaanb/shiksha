@@ -33,8 +33,13 @@
 	</div>
 
 	<section id="landing">
-		<img src="./circle1.svg" class="circle1 rellax" data-rellax-speed="-3" alt="">
-		<img src="./circle2.svg" class="circle2 rellax" data-rellax-speed="4" alt="">
+		<img src="./img/squiggle/ellipse.svg" class="ellipse rellax" data-rellax-speed="3" alt="">
+		<img src="./img/squiggle/half.svg" class="half rellax" data-rellax-speed="5" alt="">
+		<img src="./img/squiggle/rect.svg" class="rect rellax" data-rellax-speed="-4" alt="">
+		<img src="./img/squiggle/square.svg" class="square rellax" data-rellax-speed="-2" alt="">
+		<img src="./img/squiggle/stairs.svg" class="stairs rellax" data-rellax-speed="7" alt="">
+		<!-- <img src="./circle1.svg" class="circle1 rellax" data-rellax-speed="-3" alt=""> -->
+		<!-- <img src="./circle2.svg" class="circle2 rellax" data-rellax-speed="4" alt=""> -->
 		<div class="container">
 			<h1 class="big center med zero grad">Features</h1>
 			<div class="flex-center">
@@ -58,7 +63,7 @@
 			<div class="grid">
 				<div class="card">
 					<p class="center zero">
-						<img src="./record.svg" alt="">
+						<img src="./record.svg" draggable="false" alt="">
 					</p>
 					<h4 class="med">Transcripts</h4>
 					<p><i>Shiksha</i> generates transcripts of the lectures with 98.7% accuracy.</p>
@@ -66,7 +71,7 @@
 
 				<div class="card">
 					<p class="center zero">
-						<img src="./notes.svg" alt="">
+						<img src="./notes.svg" draggable="false" alt="">
 					</p>
 					<h4 class="med">Class Notebooks</h4>
 					<p><i>Shiksha</i> automatically prepares class notebooks for students to download and use. Notes are made
@@ -75,7 +80,7 @@
 
 				<div class="card">
 					<p class="center zero">
-						<img src="./board.svg" alt="">
+						<img src="./board.svg" draggable="false" alt="">
 					</p>
 					<h4 class="med">Whiteboard</h4>
 					<p>The most advanced whiteboard in an online classroom yet.</p>
@@ -125,61 +130,66 @@
 
 	<section id="reviews">
 		<div class="container">
-			<div class="slideshow-container">
+			<div class="container">
+				<div class="slideshow-container">
+					<div class="container">
 
-				<div class="mySlides fade">
-					<div class="text">
-						<div class="flex-center">
-							<div class="seven columns">
-								<p class="zero">
-									The design is phenomenal! This platform has changed mine and my childrens' lives forever.
-								</p>
-								<h5 class="zero">Siddhayak Goyal</h5>
+						<div class="mySlides fade">
+							<div class="text">
+								<div class="flex-center">
+									<div class="seven columns">
+										<p class="zero">
+											The design is phenomenal! This platform has changed mine and my childrens' lives forever.
+										</p>
+										<h5 class="zero">Siddhayak Goyal</h5>
+									</div>
+									<div class="u-cf"></div>
+								</div>
 							</div>
-							<div class="u-cf"></div>
+						</div>
+
+						<div class="mySlides fade">
+							<div class="text">
+								<div class="flex-center">
+									<div class="seven columns">
+										<p class="zero">
+											Very helpful. I love giving tests and I aspire to be an IITian one day. Thank you Arhaan for
+											fixing
+											the online schooling platform.
+										</p>
+										<h5 class="zero">Achal Gupta</h5>
+									</div>
+									<div class="u-cf"></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="mySlides fade">
+							<div class="text">
+								<div class="flex-center">
+									<div class="seven columns">
+										<p class="zero">
+											Teaching has never felt easier. I hate taking notes, but this website does it for me!
+										</p>
+										<h5 class="zero">Aditya Pramar</h5>
+									</div>
+									<div class="u-cf"></div>
+								</div>
+							</div>
 						</div>
 					</div>
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
 				</div>
+				<br>
 
-				<div class="mySlides fade">
-					<div class="text">
-						<div class="flex-center">
-							<div class="seven columns">
-								<p class="zero">
-									Very helpful. I love giving tests and I aspire to be an IITian one day. Thank you Arhaan for fixing
-									the online schooling platform.
-								</p>
-								<h5 class="zero">Achal Gupta</h5>
-							</div>
-							<div class="u-cf"></div>
-						</div>
-					</div>
+				<div style="text-align:center">
+					<span class="dot" onclick="currentSlide(1)"></span>
+					<span class="dot" onclick="currentSlide(2)"></span>
+					<span class="dot" onclick="currentSlide(3)"></span>
 				</div>
-
-				<div class="mySlides fade">
-					<div class="text">
-						<div class="flex-center">
-							<div class="seven columns">
-								<p class="zero">
-									Teaching has never felt easier. I hate taking notes, but this website does it for me!
-								</p>
-								<h5 class="zero">Aditya Pramar</h5>
-							</div>
-							<div class="u-cf"></div>
-						</div>
-					</div>
-				</div>
-
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
-
-			</div>
-			<br>
-
-			<div style="text-align:center">
-				<span class="dot" onclick="currentSlide(1)"></span>
-				<span class="dot" onclick="currentSlide(2)"></span>
-				<span class="dot" onclick="currentSlide(3)"></span>
 			</div>
 		</div>
 	</section>

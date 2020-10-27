@@ -9,6 +9,7 @@
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
 		integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 	<title>Shiksha.</title>
+	<script src="https://gh.arhaanb.co/horizon2099/js/rellax.min.js"></script>
 	<link rel="icon" href="./logo.svg" type="image/svg">
 </head>
 
@@ -34,6 +35,11 @@
 	</div>
 
 	<section id="landing" class="onindex">
+		<img src="./img/squiggle/ellipse.svg" class="ellipse rellax" data-rellax-speed="3" alt="">
+		<img src="./img/squiggle/half.svg" class="half rellax" data-rellax-speed="5" alt="">
+		<img src="./img/squiggle/rect.svg" class="rect rellax" data-rellax-speed="-4" alt="">
+		<img src="./img/squiggle/square.svg" class="square rellax" data-rellax-speed="-2" alt="">
+		<img src="./img/squiggle/stairs.svg" class="stairs rellax" data-rellax-speed="7" alt="">
 		<div class="container">
 			<div class="flex-center">
 				<div class="seven columns">
@@ -63,7 +69,7 @@
 	<section id="info2" class="indexpage">
 		<div class="container">
 			<div class="row">
-				<div class="seven columns">
+				<div class="seven columns interactone">
 					<h1 class="big med white">Interact</h1>
 					<h5 class="white">
 						Interact in ways that weren't possible before <i>Shiksha</i>. With our new quantum quantum biotechnical
@@ -73,8 +79,8 @@
 				</div>
 
 				<div class="five columns">
-					<img src="https://image.freepik.com/free-vector/flat-illustration-woman-speak-with-hologram_160309-47.jpg"
-						alt="" draggable="false" style="border-radius: 0.5em; margin-top: 3em;">
+					<img src="./img/hologram.svg" alt="" draggable="false"
+						style="border-radius: 0.5em; margin-top: 1em; margin-bottom: 3em;">
 				</div>
 			</div>
 		</div>
@@ -108,7 +114,8 @@
 				</h1>
 				<h5>
 					Gain extra knowledge with our pro plan and browse courses on all topics by some of the best teachers ever.
-					Masterlass teachers like Mithun Da and <a href="//siddhayak.co" target="_blank">Siddhayak Goyal</a> teach you skills from
+					Masterlass teachers like Mithun Da and <a href="//siddhayak.co" target="_blank">Siddhayak Goyal</a> teach you
+					skills from
 					dance to design.
 				</h5>
 			</div>
@@ -128,7 +135,10 @@
 		</div>
 	</footer>
 
-	<script src="./main.js"></script>
+	<script src="./js/main.js"></script>
+	<script type="text/javascript">
+		var rellax = new Rellax('.rellax');
+	</script>
 
 </body>
 
