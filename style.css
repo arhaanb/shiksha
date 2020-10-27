@@ -491,6 +491,7 @@ a {
 }
 
 /* Parallax Shit */
+
 .ellipse, .half, .rect, .square, .stairs {
 	position: absolute;
 	width: 6em;
@@ -519,4 +520,16 @@ a {
 .stairs {
 	top: 15em;
 	right: 22em;
+}
+
+.card.special {
+	margin-top: 3em;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.card.special img {
+	width: 5em;
+	margin: 0 5em;
 }
