@@ -1,3 +1,5 @@
+// Text Change Effect
+
 var sentences = [
 	'Teach',
 	'Learn',
@@ -45,3 +47,30 @@ function changeText() {
 ticker.html(sentences[0]);
 
 setTimeout(changeText, 3000);
+
+
+
+// Responsive Navbar effect
+
+$(document).ready(function () {
+	$("#lines").click(function () {
+		$(this).hide();
+		$('#close').fadeIn(700);
+		$('.mobnav').slideDown(700);
+	});
+
+	$("#close").click(function () {
+		$(this).hide();
+		$('#lines').fadeIn(700);
+		$('.mobnav').slideUp(700)
+	});
+});
+
+$(document).on('click', function (event) {
+	$('.mobnav').slideUp(700);
+	$('#close').hide();
+	$('#lines').fadeIn(700);
+});
+$('.nav').on('click', function (event) {
+	event.stopPropagation();
+});
