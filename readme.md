@@ -2,8 +2,6 @@
 
 <br>
 
-> Built for a Web Development event.
-
 > This is The Mother's International School's Submission for the Web Dev event by **Arhaan Bahadur** and **Hrijul Chauhan**.
 
 ## The company
