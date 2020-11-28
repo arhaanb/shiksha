@@ -2,7 +2,7 @@
 
 <br>
 
-> This is The Mother's International School's Submission for the Web Dev event by **Arhaan Bahadur** and **Hrijul Chauhan**.
+> This is The Mother's International School's submission for the Web Dev event by **Arhaan Bahadur** and **Hrijul Chauhan**.
 
 ## The company
 
