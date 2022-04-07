@@ -1,4 +1,4 @@
-[<p align="center"><img src="./readme/shiksha.svg" width="50%" /></p>](https://arhaanb.co/shiksha)
+[<p align="center"><img src="./img/shiksha.svg" width="50%" /></p>](https://arhaanb.co/shiksha)
 
 <br>
 
