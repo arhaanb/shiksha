@@ -1,6 +1,6 @@
 @font-face {
 	font-family: "europa";
-	src: url("./fonts/bold.ttf");
+	src: url("../fonts/bold.ttf");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -8,7 +8,7 @@
 
 @font-face {
 	font-family: "europa-regular";
-	src: url("./fonts/regular.ttf");
+	src: url("../fonts/regular.ttf");
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
